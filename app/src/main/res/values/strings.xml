@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AnimationUsingCompose</string>
+    <string name="title_activity_content_size_changes_animation">
+        ContentSizeChangesAnimationActivity
+    </string>
+    <string name="title_activity_content_animation">ContentAnimationActivity</string>
+</resources>
