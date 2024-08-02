@@ -66,14 +66,14 @@ fun ContentAnim() {
                         (scaleIn() + fadeIn()).togetherWith(
                             scaleOut() + fadeOut()
                         )
-                        //                        (slideInHorizontally { height -> height } + fadeIn()).togetherWith(
-                        //                            slideOutHorizontally { height -> -height } + fadeOut())
+                        //(slideInHorizontally { height -> height } + fadeIn()).togetherWith(
+                        //slideOutHorizontally { height -> -height } + fadeOut())
                     } else {
                         (scaleIn() + fadeIn()).togetherWith(
                             scaleOut() + fadeOut()
                         )
-                        //                        (slideInHorizontally { height -> height } + fadeIn()).togetherWith(
-                        //                            slideOutHorizontally { height -> -height } + fadeOut())
+                        //(slideInHorizontally { height -> height } + fadeIn()).togetherWith(
+                        //slideOutHorizontally { height -> -height } + fadeOut())
                     }.using(SizeTransform(clip = false))
                 }, label = ""
             ) { targetState ->
